@@ -1,0 +1,216 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap');
+
+/*format*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior:smooth ;
+}
+/*HEADER START*/
+header{
+    background-color:rgba(34, 34, 34,.9) ;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    border-bottom: 2px solid #ffff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 2px auto;
+    padding: 10px 0;
+    justify-content:space-between ;
+
+}
+.navlink
+{
+    display: flex;
+    
+
+}
+.navlink li a{
+    color: white;
+    margin-left: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+   }
+   .navlink li a:hover{
+    background-color: #24caac;
+   }
+
+.logo h2 a{
+    color: white;
+    text-transform: uppercase;
+}
+/*HEADER END*/
+
+/*SECTİON*/
+
+section{
+    padding: 100px 0  ;
+    background-color:#122E44 ;
+}
+image{
+    width: 100% ;
+    }
+
+/*HOME SECTİON SATART*/
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+}
+.home_child{
+    flex-basis: 45%;
+  }
+  .home_child h1{
+    color: #24caac;
+    font-size: 50px ;
+  }
+.span{
+    color: #df376e;
+
+}
+.home_child p{
+   font-size: 25px; 
+   margin-bottom: 12px;
+
+}
+.btn{
+    background-color: #24caac;
+    padding: 12px 40px;
+    border-radius: 16px;
+    color: white;
+    font-size: large;
+    border: 1px solid #fff;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: transparent;
+  letter-spacing: 1px;
+}
+
+  
+/*home_childHOME SECTİON SATART*/
+
+/*SOFTWARE SECTİON SATART*/
+.section_title{
+    text-align: center;
+    color: #fff;
+    font-size: 30px ;
+    margin-bottom: 50px;
+    transition: .5s all   ease-in-out;
+    position: relative;
+}
+.section_title:hover{
+    color: red;
+    background-color: #24caac;
+}
+.software{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content:space-between;
+
+}
+.software_child{
+    color: white;
+    background-color:#01101A ;
+    flex-basis: 30%;
+    padding: 25px 20px;
+    text-align: center;
+    border-radius:5px ;
+    border:1px solid transparent ;
+    transition: all .5s ease-in-out;    
+}
+.software_child:hover{
+    border:1px .5s ease-in-out ;
+}
+.software_child .icon{
+    color:aqua ;
+    font-size: 25px;
+}
+.software_child .h3{
+   font-size: 20px; 
+
+}
+/*SOFTWARE SECTİON END*/
+
+/*CERTİFİCATES SECTİON START*/
+.certificates{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;    
+}
+.certificates_child{
+  flex-basis: 24%;  
+  color: white;
+  padding: 20px 10px;
+  border:1px solid transparent ;
+  transition: all .5s ease-in-out; 
+  border-radius: 5px; 
+}
+.certificates_child:hover{
+    border: 1px solid #24caac;
+}
+.certificates_child .detail{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.certificates_child .detail ul{
+    display: flex;
+    justify-content: space-between;
+}
+.certificates_child .detail ul li{
+ color: gold;   
+}
+/*CERTİFİCATES SECTİON end*/
+
+/*success section start */
+.success{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    }
+.success_child{
+    flex-basis: 40% ;
+}
+.success_child img{
+
+    height: 100%;
+    width:100% ;
+    object-fit: cover;
+}
+.success_child2{
+
+flex-basis: 4%;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+
+/* success section END */
